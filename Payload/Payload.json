@@ -1,0 +1,7 @@
+{
+    "aps": {
+        "alert": "Xcode 12: Push Notifications Testing on iOS Simulator",
+        "sound": "default",
+        "badge": 1
+    }
+}

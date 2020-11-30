@@ -49,6 +49,10 @@
 		E0E9F0F52574A8B40049EFB3 /* TestPushNotificationOnSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPushNotificationOnSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E9F0F92574A8B40049EFB3 /* TestPushNotificationOnSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPushNotificationOnSimulatorUITests.swift; sourceTree = "<group>"; };
 		E0E9F0FB2574A8B40049EFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E9F10A2574AADF0049EFB3 /* Payload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Payload.json; sourceTree = "<group>"; };
+		E0E9F10E2574AC200049EFB3 /* PayloadDragAndDrop.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PayloadDragAndDrop.apns; sourceTree = "<group>"; };
+		E0E9F1112574AD320049EFB3 /* RichPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = RichPayload.apns; sourceTree = "<group>"; };
+		E0E9F1122574AEA30049EFB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		E0E9F0CB2574A8B00049EFB3 = {
 			isa = PBXGroup;
 			children = (
+				E0E9F1122574AEA30049EFB3 /* README.md */,
+				E0E9F1102574AC6F0049EFB3 /* Payload */,
 				E0E9F0D62574A8B00049EFB3 /* TestPushNotificationOnSimulator */,
 				E0E9F0ED2574A8B40049EFB3 /* TestPushNotificationOnSimulatorTests */,
 				E0E9F0F82574A8B40049EFB3 /* TestPushNotificationOnSimulatorUITests */,
@@ -126,6 +132,16 @@
 				E0E9F0FB2574A8B40049EFB3 /* Info.plist */,
 			);
 			path = TestPushNotificationOnSimulatorUITests;
+			sourceTree = "<group>";
+		};
+		E0E9F1102574AC6F0049EFB3 /* Payload */ = {
+			isa = PBXGroup;
+			children = (
+				E0E9F10A2574AADF0049EFB3 /* Payload.json */,
+				E0E9F10E2574AC200049EFB3 /* PayloadDragAndDrop.apns */,
+				E0E9F1112574AD320049EFB3 /* RichPayload.apns */,
+			);
+			path = Payload;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

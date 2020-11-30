@@ -1,0 +1,15 @@
+{
+    "Simulator Target Bundle": "com.jeenalinfotech.TestPushNotificationOnSimulator",
+    "aps": {
+        "alert": {
+            "title": "Breaking News",
+            "body": "Xcode 12: Push Notifications Testing on iOS Simulator via Drag and Drop"
+        },
+        "sound": "default",
+        "badge": 1,
+        "category": "news_added",
+        "mutable-content": 1
+    },
+    "blog_url": "https://milanpanchal24.medium.com/",
+    "event_type": "breaking_news"
+}
